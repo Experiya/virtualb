@@ -1,0 +1,21 @@
+{
+  "name": "experiya",
+  "version": "1.0.0",
+  "description": "A chat application just try ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "Dev" : "nodemon server"
+
+  },
+  "author": "Samir Boro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
